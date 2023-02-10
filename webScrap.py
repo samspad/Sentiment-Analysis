@@ -35,5 +35,5 @@ connection.commit()
 print('complet.')
 
 
-#soup = BeautifulSoup(driver.text, "html.parser")
-#proftags = drive.findAll("td", {"class": "comments" })
+soup = BeautifulSoup(driver.text, "html.parser")
+proftags = drive.findAll("td", {"class": "comments" })
